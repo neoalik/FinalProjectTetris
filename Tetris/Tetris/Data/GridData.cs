@@ -132,7 +132,7 @@ namespace Tetris.Data
         {
             int[,] result = new int[originalArray.GetLength(0), originalArray.GetLength(1)];
 
-            for (int i = originalArray.GetLength(0) - 1, j = originalArray.GetLength(0) - 1; i > 0; i--)
+            for (int i = originalArray.GetLength(0) - 1, j = originalArray.GetLength(0) - 1; i >= 0; i--)
             {
                 if(i == rowToRemove)
                 {
